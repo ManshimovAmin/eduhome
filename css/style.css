@@ -1,0 +1,769 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header-top {
+    background-color: #ec1c23;
+    color: white;
+    padding: 20px 0px;
+    position: relative;
+    overflow: hidden;
+}
+.header-top .login a{
+    padding: 10px;
+}
+
+.login a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: end;
+}
+
+.header-top::after {
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 0;
+    background-color: #2c2b5e;
+    width: 34.3%;
+    height: 100%;
+    z-index: 1;
+}
+
+.header-top .login {
+    z-index: 2;
+    position: relative;
+}
+
+
+.header-top .abc {
+    position: absolute;
+    right: 32%;
+    bottom: -67px;
+    background-color: #2c2b5e;
+    height: 260px;
+    width: 60px;
+    transform: rotate(-30deg);
+    z-index: 3;
+}
+
+.header-top .abc .line {
+    height: 100%;
+    width: 10px;
+    margin-left: 20px;
+    background-color: white;
+
+
+}
+
+.header-bottom .logo {
+    display: flex;
+}
+
+.header-bottom .logo img {
+    width: -webkit-fill-available;  }
+
+.header-bottom {
+    margin: 20px;
+
+}
+
+.header-bottom .logo a {
+    text-decoration: none;
+}
+
+
+
+.header-bottom nav i {
+    width: 26px;
+    height: 24px;
+    margin: 30px;
+  color: white;
+  background-color: #2C2B5E;
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 70px;
+}
+
+.header-bottom nav .search i {
+    color: white;
+}
+
+.header-bottom nav a {
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.header-bottom .logo {
+    padding: 30px;
+}
+
+.slider {
+    height: 100vh;
+    width: 100%;
+
+}
+
+.slider .carousel-item .bg {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top;
+}
+
+.slider .carousel-item .bg .shadow {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.slider .carousel-item .carousel-caption {
+    bottom: 37%;
+}
+
+.carousel-caption a {
+    background: red;
+    color: white;
+}
+
+.prof {
+    padding: 100px 0px;
+}
+
+.prof .card {
+
+    border: 1px solid gray;
+    justify-content: flex-end;
+}
+
+.prof .card a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.prof .container .row .col-4 .card p {
+    color: gray;
+    padding: 10px;
+}
+
+.slider .carousel-item .bg {
+    height: 100vh;
+    width: 100%;
+}
+
+.about .container .row .col-6 {
+    display: flex;
+}
+
+.about .container .img {
+    width: 450px;
+    height: 350px;
+    border: 3px solid gray;
+}
+
+.about .container .row .col-6 .img img {
+    width: 450px;
+    height: 350px;
+
+}
+
+.about .container .row .col-6 .title {
+    padding: 20px;
+    margin: 20px;
+}
+
+.about .container .row .col-6 .title h1 {
+    font-size: 30px;
+}
+
+.about .container .row .col-6 .title button {
+    background-color: red;
+    width: 180px;
+    height: 40px;
+    color: white;
+    border: none;
+}
+
+.about .container .row .col-6 .title button:hover {
+    background-color: blue;
+    transition: 0.5s;
+}
+
+.about .title p {
+    line-height: 30px;
+}
+
+.about .courses {
+    background-image: url('img/course-bg.webp');
+}
+
+.courses .card {
+    width: 250px;
+    height: 200px;
+}
+
+.courses .card a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.courses .card a:hover {
+    color: red;
+    transition: 0.5s;
+
+}
+
+.courses .card button {
+    width: 100px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+.courses .card button:hover {
+    background-color: blue;
+    transition: 0.5s;
+
+}
+
+.courses {
+
+    background-image: linear-gradient(rgba(54, 21, 130, 0.8),rgba(0, 0, 0 , 0.8)), url('img/course-bg.webp');
+    background-attachment:fixed;
+    height: 100vh;
+    opacity: 1;
+
+}
+.courses .card-body{
+    color: white;
+    background-color: white;
+}
+.courses .card-body a{
+    color: black
+}
+.courses .card-body p{
+    color: gray;
+}
+.events .card {
+    width: 450px;
+    height: 200px;
+    display: flex;
+    margin: 10px;
+}
+
+.events .card a {
+    text-decoration: none;
+    color: gray;
+}
+
+.events .card button {
+    border: 1px solid gray;
+    background-color: white;
+}
+.events .card button:hover{
+    background-color: #ec1c23;
+    color: white;
+}
+.events .card .img {
+    display: flex;
+}
+
+.events .card {}
+
+.blog .card-body a {
+    text-decoration: none;
+    color: black;
+}
+
+.notice .title .bg {
+    background-image: url(/img/video.webp);
+}
+
+.notice .img img {}
+
+.notice .img .shadow {
+    background-color: #2320c67a;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.subscribe .container {
+    background-color: rgb(213, 211, 211);
+    margin: 100px;
+    padding: 50px;
+}
+
+.subscribe .container .our h1 {
+    font-size: 50px;
+    color: rgb(82, 82, 162);
+}
+
+.subscribe .container .input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe .container .input button {
+    background-color: red;
+    border: none;
+    color: white;
+    width: 150px;
+    height: 30px;
+}
+
+.subscribe .container .title {
+    text-align: center;
+}
+
+.footer-top .img img {
+    width: 100%;
+}
+
+.footer-top .container  a {
+    text-decoration: none;
+whi
+}
+
+.footer-top .container a:hover{
+    color: red;
+    transition:0.5s;
+}
+
+.footer-top  i {
+    color: gray;
+  
+    border-radius: 50%;
+    background-color:white;
+    width: 30px;
+    
+}
+.footer-top .i{
+    border: 1px solid gray;
+}
+
+.footer-top .info h1{
+    color: gray;
+}
+.footer-top .useful h1{
+    color: gray;
+}
+.footer-top .get h1{
+    color: gray;
+}
+.footer-top .line1{
+    width: 66px;
+    height: 2px;
+    background-color: gray;
+    margin: 2px;
+}
+.footer-top .line2{
+    width: 46px;
+    height: 1px;
+    background-color: gray;
+}
+.notice::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+
+
+/* Handle */
+.notice::-webkit-scrollbar-thumb {
+    background: red;
+}
+
+/* Handle on hover */
+.notice::-webkit-scrollbar-thumb:hover {
+    background: red;
+}
+.profile{
+    background-image: linear-gradient(rgba(6, 6, 104, 0.8),rgba(33, 26, 151, 0.8)), url('img/course-bg.webp');
+    background-attachment:fixed;
+   
+}
+.profile .bg{
+    width: 100%;
+    height: 100%;
+    color: white;
+   
+}
+.profile .bg img{
+    border-radius: 50%;
+}
+.courses .title{
+    color: white;
+}
+.image .title {
+    position: relative; 
+    z-index: 2; 
+    text-align: center;
+}
+.image .title h1{
+    color: white;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.image{
+    background-image: url(/img/banner.jpg);
+    height: 300px;
+    position: relative;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    overflow: hidden;
+}
+.image:after{
+    background-color: rgba(0, 0, 0, 0.80);;
+    content: ""; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1;
+}
+.teachers .logo {
+    text-align: center;
+}
+.teachers .title{
+    text-align: center;
+}
+.teachers .body .social-medias{
+    margin: 12px 0px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 33px;
+}
+
+.teachers .card:hover  .body{
+transform: translateY(-68px);
+}
+.teachers .head{
+    position: relative;
+    transition: 0.4s;
+}
+.teacher .card  .head:after{
+position: absolute;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+content: "";
+background: rgba(231,231,231,0.84);
+opacity: 0;
+transition: 0.4s;
+z-index: 1;
+}
+.teachers .card:hover .head:after{
+    opacity: 1;
+}
+.teachers .body .social-medias a{
+
+    color:#2c2b5e;
+    font-size: 12px;
+    width: 40px;
+    height: 40px;
+    background-color: #e9e9e9;
+    display: inline-block;
+    line-height: 38px;
+    margin-right: 8px;
+    transition: 0.4s;
+}
+.teachers .body .social-medias a:hover{
+    color: #e9e9e9;
+    background-color: #ec1c23;
+}
+.teachers .card{
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: 330px;
+    transition: 0.4;
+}
+.teachers .body{
+    background-color: white;
+    transform: translateY(0px);
+    transition: 0.4s;
+    z-index: 1;
+}
+.teacher .card  img{
+    width: 100%;
+    height: 278px;
+    object-fit: cover;
+ 
+}
+
+.teachers .body a{
+    text-decoration: none;
+    color: black;
+}
+.teachers .body .info{
+    color: gray;
+}
+.teachers .body a:hover{
+    color: red;
+    transition: 0.5;
+}
+.image .title h1{
+    color: white;
+}
+.notice h4{
+    color:red;
+}
+.search{
+    margin: 70px;
+}
+.search .yuxari{
+   
+  
+}
+.search .yuxari h3{
+        background: #2C2B5E;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 22px;
+        font-family: 'Open Sans', sans-serif;
+        padding: 16px 93px 16px 27px;
+        display: inline-block;
+        position: relative;
+    margin-left: -50px;
+}
+.search .yuxari h3::after {
+    background: #fff none repeat scroll 0 0;
+    content: "";
+    height: 85px;
+    position: absolute;
+    right: -26px;
+    top: -17px;
+    transform: rotate(-30deg);
+    width: 45px;
+}
+.search .asagi{
+    margin-left: -50px;
+}
+.search .asagi input{
+    width: 75%;
+    border: none;
+}
+.search .asagi button{
+    width: 200px;
+height: 50px;
+border: none;
+background: #ec1c23;
+color: white;
+font-size: 20px;
+font-weight: 600;
+}
+.cards .container{
+    display: flex;
+    flex-wrap: wrap;
+
+    
+}
+.cards .container .card{
+    margin: 20px;
+ 
+}
+.cards .container .card-body a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}.cards .container a{
+    width: 200px;
+
+    border: none;
+}
+
+.cards .container a:hover{
+color: red;
+transition: 0.4s;
+}
+.cards .container button{
+    border: none;
+    color: #e9e9e9;
+    background-color: red;
+    width: 100px;
+    height: 30px;
+}
+.cards .container button:hover{
+    background-color: #2C2B5E;
+}
+.cards .container .img :hover{
+    background-color: #ec1c23;
+}
+.card-img-top:hover {
+    background-color: red;
+}
+.teachers .card{
+
+}
+.subscribe .container{
+    margin-left:20px ;
+}
+
+
+.add .container .card{
+    width: 365px;
+    height: 400px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 0px 4px white;
+    margin: 20px;
+
+}
+.add .card img{
+    width: 100%;
+    height: 40vh;
+}
+.add .card .head::after{
+    background-color: #ec1c23;
+}
+.add .body{
+    margin: 20px;
+}
+
+.add .a1 a{
+    margin-top: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+.add .a1 a:hover{
+    color: red;
+}
+
+.add .a2 a{
+  margin: 40px;
+  padding-right: -200px;
+   
+    text-decoration: none;
+    color: rgb(145, 19, 19);
+    transition: 0.4s;
+}
+.add .a2 a:hover{
+    color: black;
+    transition: 0.4s;
+}
+.add .container {
+    display: flex;
+    
+}
+.add .head1{
+    border-bottom: 1px solid gray;
+}
+
+.contact .card{
+    width: 450px;
+    height: 550px;
+    margin: 40px;
+}
+.contact .card .addres{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+}
+.contact .card .addres2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px;
+}
+.contact .card .addres3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 40px;
+}
+.contact .card p{
+    font-size: 10px;
+}
+.contact .icon{
+    border-radius: 50%;
+    border: 1px solid rgb(196, 182, 182);
+    width: 30px;
+    height: 23px;
+    background-color: #d2d2d2;
+    text-align: center;
+}
+.contact .message{
+    margin: 80px;
+}
+.contact .message p{
+    font-size: 13px;
+}
+.contact .message input{
+    width: 75%;
+    height: 40px;
+    border: 1px solid rgba(234, 220, 220, 0.753);
+}
+.contact .message .title{
+    font-weight: 700;
+}
+.contact .message textarea{
+    width: 100%;
+    height: 29vh;
+}
+.contact .message button{
+    margin: 20px;
+    border: none;
+    background-color: #2C2B5E;
+    color: white;
+    height: 40px;
+    width: 200px;
+}
+.contact .message button:hover{
+    background-color: #ec1c23;
+}
+.img .shadow{display: none;}
+.img:hover .shadow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    background-color: #ec1c2363 !important;
+    font-size: 25px;
+    position: absolute;
+    top: 0;
+    left:0;
+}
+.planner{
+    position: absolute;
+    top:20%;
+    left: 0;
+    background-color: rgba(33, 33, 227, 0.55);
+    font-size: 20px;
+}
+
+.card .img img{
+    width: -webkit-fill-available;
+}
+
+.imgas{position: relative;content: "";border:10px solid rgb(83, 80, 80);height: 250px ; width: -webkit-fill-available;margin-top: 50px;
+}
+.imgas img{position: absolute;
+    bottom: 0;
+    width: -webkit-fill-available;
+}
+.cards .card img{
+    
+}
